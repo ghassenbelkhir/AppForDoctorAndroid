@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oc.rss.appfordocter">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Login"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".ActivityItemDetail"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".ActivityDossierMedical"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oc.rss.appfordocter.ActivityDossierMedical" />
+        </activity>
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".ActivityExamenImages"
+            android:label="Examens"
+            android:parentActivityName=".ActivityDossierMedical"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oc.rss.appfordocter.ActivityDossierMedical" />
+        </activity>
+
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".ActivityImageShow"
+            android:label="Examens"
+            android:parentActivityName=".ActivityExamenImages"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oc.rss.appfordocter.ActivityDossierMedical" />
+        </activity>
+
+
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".ActivityAjouterFicheDesSoins"
+            android:label="Examens"
+            android:parentActivityName=".ActivityDossierMedical"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oc.rss.appfordocter.ActivityDossierMedical" />
+        </activity>
+
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".ActivityDossierMedical"
+            android:label="Dossier Medical"
+            android:parentActivityName=".ActivityDossierMedical"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oc.rss.appfordocter.MainActivity" />
+        </activity>
+
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".MainActivity"
+            android:label="Dossier Medical"
+            android:parentActivityName=".Activity_Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oc.rss.appfordocter.MainActivity" />
+        </activity>
+
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".ActivityFicheDeSoinsExamenJour"
+            android:label="Dossier Medical"
+            android:parentActivityName=".ActivityDossierMedical"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.oc.rss.appfordocter.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">App For Doctor</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="servings" >Service </string>
+    <string name="total" >Total</string>
+    <string name="side_wo_colon" >jsp</string>
+    <string name="main_wo_colon" >jsp</string>
+    <string name="default_text_ps">180PS</string>
+    <string name="separator">/</string>
+    <string name="default_text_kws">120kW</string>
+
+    <string name="car_producer_image_content_description">Car Producer</string>
+    <string name="kw">kW</string>
+    <string name="ps">PS</string>
+    <string name="dossierId">DossierID</string>
+    <string name="type">Type</string>
+    <string name="date">Date</string>
+    <string name="nombre">Nombre</string>
+    <string name="chargement" >En cours de chargement</string>
+    <string name="ici_le_nom_de_patient">Ici le nom de Patient</string>
+
+    <string name="MedicamentNom">Medicament</string>
+    <string name="Ordonnance">Ordonnance</string>
+    <string name="etablissement">Etablissement</string>
+    <string name="raison">Raison</string>
+    <string name="Raison">Raison</string>
+    <string name="Etablissement">Etablissement</string>
+    <string name="Diagnostic">Diagnostic</string>
+    <string name="Etat">Etat</string>
+    <string name="diagnostic">Diagnostic</string>
+    <string name="etat">Etat</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="nom_medecin">Nom Medecin</string>
+    <string name="test">hh</string>
+    <string name="hospitaliser">Hospitaliser</string>
+    <string name="dateEntree">Date d\'entree</string>
+    <string name="dateSortie">Date de Sortie</string>
+    <string name="cancel">Cancel</string>
+    <string name="Text">Si vous utilisez cette application pour la premiere fois veuillez sauvegarder votre mot de passe en cliquant  </string>
+    <string name="NumDossier">Numero Dossier</string>
+    <string name="Prenom">Prenom</string>
+    <string name="Nom">Nom</string>
+    <string name="dateNais">Date de naissance</string>
+
+
+</resources>
